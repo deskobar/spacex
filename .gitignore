@@ -1,0 +1,16 @@
+.venv
+**/__pycache__
+exports/**
+.DS_Store
+.vscode
+.coverage
+notebooks/*.csv
+notebooks/*.json
+notebooks/*.xlsx
+notebooks/*.txt
+notebooks/*.gz
+notebooks/.ipynb_checkpoints/**
+.aws-sam/
+
+# ignore terraform init files
+**/.terraform*
